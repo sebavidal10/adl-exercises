@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #373a3c;
+}
+
+nav,
+footer {
+  background-color: #e83e8c;
+}
+
+nav img {
+  height: 50px;
+}
+
+h1,
+h2,
+.card-title {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 60px;
+  color: #707070;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.icons-section {
+  background-color: #17a2b8;
+}
+
+.card-title {
+  font-size: 17px;
+}
+.card-text  {
+  font-size: 14px;
+}
+.list-group-item,
+.card-link {
+  font-size: 11px;
+}
+.card-link {
+  color: #1c7cd5;
+}
+
+footer img {
+  height: 100px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 35px;
+  }
+}

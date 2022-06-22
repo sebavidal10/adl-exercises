@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12 col-sm-8 mx-auto">
+                <h1 class="text-center">
+                    Pokedex!
+                </h1>
+                <img src="https://img1.picmix.com/output/stamp/normal/0/9/0/4/1604090_a14a5.gif" alt="pokemon" class="img-fluid d-block mx-auto mt-2 mb-4" style="width: 100px">
+                <p class="text-center small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet eos necessitatibus aliquam temporibus nam non quia doloribus suscipit vero autem dolorum unde repellendus minima ea, sunt cupiditate aut expedita error.</p>
+
+                <form>
+                    <div class="form-group">
+                        <label>Encuentra un <b class="text-warning">Pokemon!</b></label>
+                        <input type="text" class="form-control" id="inputPokemon">
+                        <small id="emailHelp" class="form-text text-muted">Nombre o Id, por ejemplo: <b>1 bulbasaur</b>, <b>5 charmander</b> o <b>7 squirtle</b></small>
+                    </div>
+                    <button type="submit" class="float-right btn btn-primary">Consultar</button>
+                </form>
+            </div>
+        </div>
+        <div class="text-center my-5" id="loader">
+            <div class="spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <div class="row mt-5 justify-content-center" id="pokemonInfo">
+            <div class="col-12 col-sm-2 d-block text-center">
+                <p></p>
+                <img src="" alt="" class="img-fluid pb-3" />
+                <p><span></span></p>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div id="divChart" style="height: 370px; width: 100%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+
+</body>
+
+</html>

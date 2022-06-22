@@ -1,0 +1,73 @@
+/* 
+font-family: 'Cabin', sans-serif;
+font-family: 'Lobster', cursive; 
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --negroRC: #373a3c;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  color: var(--negroRC);
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-brand {
+  font-size: 39px;
+}
+
+header {
+  border: none;
+}
+
+header h5,
+.ingredientes-preparacion {
+  font-size: 20px;
+}
+
+.carousel-indicators li {
+  background-color: var(--negroRC);
+  width: 11px;
+  height: 11px;
+}
+
+u {
+  text-underline-offset: 10px;
+}
+
+h1,
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+.navbar-brand,
+h3 span,
+footer {
+  font-family: 'Lobster', cursive;
+}
+
+.card-title {
+  font-size: 23px;
+}
+.card-text {
+  font-size: 16px;
+}
+
+footer {
+  font-size: 37px;
+}
+
+@media (max-width: 575.98px) {
+  header {
+    border-top: 1px solid #000;
+  }
+}

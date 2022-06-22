@@ -1,0 +1,59 @@
+:root {
+  --azul: #1b6396;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar,
+.bg-site,
+footer {
+  background-color: var(--azul);
+}
+.navbar-brand,
+#experiencia h4,
+footer {
+  font-family: 'Righteous', cursive;
+}
+.navbar-brand i {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Righteous', cursive;
+  top: 400px;
+}
+h1 span {
+  font-size: 35px;
+}
+
+header {
+  background-color: black;
+}
+header img {
+  height: 300px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.text-site {
+  color: var(--azul);
+}
+
+#sobremi p {
+  line-height: 2rem;
+}
+
+#experiencia img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}

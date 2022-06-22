@@ -1,0 +1,38 @@
+/* reset body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #707070;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+.navbar-brand img,
+footer img {
+  height: 25px;
+}
+
+.card-title,
+.price {
+  font-size: 20px;
+}
+.card-title {
+  color: #212529;
+  font-weight: 300;
+}
+.card-text,
+.card-body,
+footer {
+  font-size: 16px;
+}
+.card-text-map {
+  font-size: 13px;
+}
+h2,
+.price {
+  font-weight: 500;
+}
