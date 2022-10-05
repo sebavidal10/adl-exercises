@@ -1,6 +1,8 @@
 # ADL Exercises
 
-Some exercises make it inside the ADL bootcamp: html, css and js
+Some exercises make it inside the ADL bootcamp.
+
+### html, css and js
 
 1. adl-animals
 2. adl-cuppon
@@ -15,3 +17,7 @@ Some exercises make it inside the ADL bootcamp: html, css and js
 11. adl-ricomida
 12. adl-suricata
 13. adl-viajes-chile
+
+### CSS 2
+
+14. adl-mensajeria
