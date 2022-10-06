@@ -2,7 +2,7 @@
 
 Some exercises make it inside the ADL bootcamp.
 
-### html, css and js
+### Intro Web development: Html and Css
 
 1. adl-animals
 2. adl-cuppon
