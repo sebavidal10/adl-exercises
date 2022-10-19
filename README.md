@@ -21,3 +21,4 @@ Some exercises make it inside the ADL bootcamp.
 ### CSS 2
 
 14. adl-mensajeria
+15. adl-ecommerce-layout
