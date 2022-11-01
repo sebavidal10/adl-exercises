@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  grid-area: nav;
+}
+
+.filters {
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  gap: 5px;
+  grid-area: filters;
+}
+.filters select {
+  border: none;
+  width: 80%;
+  height: 20px;
+  background-color: white;
+}
+
+.main {
+  display: grid;
+  overflow-y: auto;
+}
+.main .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.main .card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.main .card button {
+  background: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.paginator {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  padding: 10px;
+  grid-area: paginator;
+}
+.paginator i,
+.paginator div {
+  background: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  grid-area: footer;
+}
+
+.grid {
+  display: grid;
+  height: 100vh;
+  grid-template:
+    'nav'
+    'filters'
+    'main'
+    'paginator'
+    'footer';
+}
+
+@media (min-width: 568px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .grid {
+    grid-template:
+      'nav filters'
+      'nav main'
+      'nav main'
+      'footer paginator';
+  }
+  .nav {
+    height: 100%;
+  }
+}
