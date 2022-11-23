@@ -24,3 +24,7 @@ Some exercises make it inside the ADL bootcamp.
 15. ecommerce-layout
 16. electric-car-store
 17. card-bootstrap-sass
+
+### JS para la web
+
+18. tarjeta-js
