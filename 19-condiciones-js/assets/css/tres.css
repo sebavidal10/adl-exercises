@@ -1,0 +1,12 @@
+.center {
+  text-align: center;
+}
+
+.grid {
+  width: 140px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 10px;
+  align-content: space-around;
+}

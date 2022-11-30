@@ -28,3 +28,4 @@ Some exercises make it inside the ADL bootcamp.
 ### JS para la web
 
 18. tarjeta-js
+19. condicione-js

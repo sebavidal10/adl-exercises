@@ -1,0 +1,14 @@
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 10px;
+}
+.center {
+  text-align: center;
+}
