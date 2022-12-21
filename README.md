@@ -31,3 +31,4 @@ Some exercises make it inside the ADL bootcamp.
 19. condicione-js
 20. funciones-js
 21. inmobiliaria-js
+22. todo-list-js

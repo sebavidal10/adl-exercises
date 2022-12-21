@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <!-- add bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+      <hr/>
+      <div>
+        <label>Nueva tarea</label><br/>
+        <input type="text" class="form-control" id="newTask"/>
+      </div>
+      <div>
+        <div class="pull-right">
+          <span id="taskReady">0</span>/<span id="totalTasks">0</span>  
+        </div>
+        <h2>Tareas</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Tarea</th>
+              <th class="text-right">Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="tasks"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+
+  </body>
+</html>
