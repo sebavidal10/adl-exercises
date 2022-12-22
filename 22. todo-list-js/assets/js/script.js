@@ -18,7 +18,7 @@ const addTask = () => {
   }
 
   const newTask = {
-    id: tasksList.length + 1,
+    id: tasksList.length > 0 ? tasksList[tasksList.length - 1].id + 1 : 1,
     name: task.value,
     status: false
   };
